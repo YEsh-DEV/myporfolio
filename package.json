@@ -1,13 +1,13 @@
 {
   "name": "3dfolio",
-  "homepage": "https://yesh-dev.github.io/myporfolio/",
+  "homepage": ".",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/myporfolio/",
-    "preview": "vite preview --base=/myporfolio/",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
